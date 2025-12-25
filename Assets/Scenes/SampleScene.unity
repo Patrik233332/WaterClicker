@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -42,8 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -66,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 0
@@ -289,8 +286,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 147, y: 120}
-  m_SizeDelta: {x: 249.8398, y: 204.0601}
+  m_AnchoredPosition: {x: 161, y: 130}
+  m_SizeDelta: {x: 265.09, y: 188.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &241598799
 MonoBehaviour:
@@ -1285,7 +1282,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cbcf2efa612d89147945c0cb472b3b04, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: cbcf2efa612d89147945c0cb472b3b04, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.025
   m_Pitch: 1
@@ -1408,7 +1406,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 9.239136, y: 0}
+  m_SizeDelta: {x: 0, y: 15.576416}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &545525912
 MonoBehaviour:
@@ -1496,8 +1494,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 133.54, y: 94.12998}
-  m_SizeDelta: {x: 267.07, y: 114}
+  m_AnchoredPosition: {x: 131.55, y: 94.129974}
+  m_SizeDelta: {x: 267.07, y: 188.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &678669020
 MonoBehaviour:
@@ -1520,7 +1518,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 7b46a261f86ce54409768c4412896efd, type: 3}
     m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
@@ -2219,8 +2217,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 141.03998, y: 94.132}
-  m_SizeDelta: {x: 282.09, y: 188.26}
+  m_AnchoredPosition: {x: 165, y: 126}
+  m_SizeDelta: {x: 265.09, y: 188.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1432327084
 MonoBehaviour:
@@ -2298,7 +2296,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3954756866448581833, guid: 6f8605f268fba7643ac9fe8910d49474, type: 3}
+  m_Sprite: {fileID: -7971429260477902734, guid: 7f3836b7395c329428c1d08e9138b823, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2451,7 +2449,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &1517982488
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2465,6 +2463,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -3741,8 +3740,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 124.92, y: 102.03}
-  m_SizeDelta: {x: 267.07, y: 114}
+  m_AnchoredPosition: {x: 124.92, y: 99.555}
+  m_SizeDelta: {x: 267.07, y: 177.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2050820256
 MonoBehaviour:
@@ -3830,7 +3829,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0.40625}
+  m_SizeDelta: {x: 0, y: 15.576416}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2117943065
 MonoBehaviour:
